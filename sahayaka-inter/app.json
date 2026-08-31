@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "sahayaka-inter",
+    "slug": "sahayaka-inter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sahayaka.inter",
+      "config": {
+        "googleMapsApiKey": "AIzaSyB2qn1D2e7-FOBR94zimx3Edz-8WehH1Po"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sahayaka.inter",
+      "edgeToEdgeEnabled": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB2qn1D2e7-FOBR94zimx3Edz-8WehH1Po"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "833d6e14-0071-4d97-8e3b-ee429ebca349"
+      }
+    },
+    "owner": "karthikraj_7"
+  }
+}
